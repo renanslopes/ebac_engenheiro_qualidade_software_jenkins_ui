@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                git branch: 'main', url: 'https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/585b7692bb6fbd1f091f5bd08d439772aa58feb9/Modulo_11_12_Cypress_UI_01/exercicio_final/teste-e2e-ebac'
+                git branch: 'main', url: 'https://github.com/renanslopes/ebac_engenheiro_qualidade_software_jenkins_ui.git'
                 sh 'npm install'
             }
         }
